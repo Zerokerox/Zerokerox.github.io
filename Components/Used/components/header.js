@@ -96,7 +96,7 @@ class ThaiHeader extends HTMLElement {
       <header class="navbar">
         <a href="#home" class="logo" data-target="home">
           <span class="logo-icon">ก</span>
-          <span>Thai<span class="gold">Bloom</span></span>
+          <span>Si<span class="gold">Htoung</span></span>
         </a>
 
         <nav aria-label="Main navigation">
