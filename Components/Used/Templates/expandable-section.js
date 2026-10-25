@@ -104,7 +104,13 @@ class ExpandableSection extends HTMLElement {
  
     </style>
     <details>
-      <summary>${contentTitle}</summary>
+      <summary>
+      <div>
+      ${contentTitle}
+      <slot name="sub-title"></slot>
+      <div>
+      
+      </summary>
       <slot name="detail"></slot>
     </details>
   
