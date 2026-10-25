@@ -19,7 +19,7 @@ class DayThree extends HTMLElement {
             reading-sound="${char.readingSound}"
             youtube-link="${char.youtubeLink}"
             image-url="${char.imageUrl}"
-            audio-url=""
+            audio-url="${char.audioUrl}"
           ></my-char-card-with-link-style-image-shower-audio>
         </li>`;
       })
