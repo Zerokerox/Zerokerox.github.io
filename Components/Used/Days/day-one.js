@@ -23,6 +23,7 @@ class DayOne extends HTMLElement {
 
     this.shadowRoot.innerHTML = `
     <my-expandable-section content-title="Day 1" >
+    <h2 slot="sub-title" style="display:block; color: blue;">ก -> ญ</h2>
     <ol slot="detail">${charList}</ol>
     </my-expandable-section>
         `;
