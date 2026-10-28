@@ -96,11 +96,11 @@ class ThaiHeader extends HTMLElement {
       <header class="navbar">
         <a href="#home" class="logo" data-target="home">
           <span class="logo-icon">ก</span>
-          <span>Si<span class="gold">Htoung</span></span>
+          <span>Hsi<span class="gold">Htoung</span></span>
         </a>
 
         <nav aria-label="Main navigation">
-          <a href="../../../characters.html">Home</a>
+          <a href="../../../index.html">Home</a>
           <a href="#about" data-target="about">About</a>
           <a href="#lessons" data-target="lessons">Lessons</a>
         </nav>
