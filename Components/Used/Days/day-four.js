@@ -1,7 +1,7 @@
 import dayFourData from "../data/day-four-data.js";
 import "../Cards/char-card-with-link-style-image-shower-audio.js";
 import "../Cards/char-card-with-link-style.js";
-import "../Templates/expandable-section.js";
+import "../Templates/expandable-section-v2.js";
 
 class DayFour extends HTMLElement {
   constructor() {
@@ -19,7 +19,7 @@ class DayFour extends HTMLElement {
             reading-sound="${char.readingSound}"
             youtube-link="${char.youtubeLink}"
             image-url="${char.imageUrl}"
-            audio-url=""
+            audio-url="${char.audioUrl}"
           ></my-char-card-with-link-style-image-shower-audio>
         </li>`;
       })
@@ -27,7 +27,7 @@ class DayFour extends HTMLElement {
 
     this.shadowRoot.innerHTML = `
     <my-expandable-section content-title="Day 4" >
-    <h2 slot="sub-title" style="display:block; color: blue;">ล -> ฮ</h2>
+    <h2 slot="sub-title" style="display:block;">ล -> ฮ</h2>
     <ol slot="detail" start="36">
     ${charList}
     </ol>
