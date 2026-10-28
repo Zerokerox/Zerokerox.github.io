@@ -1,7 +1,7 @@
 import dayThreeData from "../data/day-three-data.js";
 import "../Cards/char-card-with-link-style-image-shower-audio.js";
 import "../Cards/char-card-with-link-style.js";
-import "../Templates/expandable-section.js";
+import "../Templates/expandable-section-v2.js";
 
 class DayThree extends HTMLElement {
   constructor() {
@@ -27,7 +27,7 @@ class DayThree extends HTMLElement {
 
     this.shadowRoot.innerHTML = `
     <my-expandable-section content-title="Day 3" >
-    <h2 slot="sub-title" style="display:block; color: blue;">บ -> ร</h2>
+    <h2 slot="sub-title" style="display:block;">บ -> ร</h2>
     <ol slot="detail" start=26>
     ${charList}
     </ol>
