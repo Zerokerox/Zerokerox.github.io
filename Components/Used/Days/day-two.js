@@ -1,6 +1,6 @@
 import dayTwoData from "../data/day-two-data.js";
-import "../Cards/char-card-with-link-style.js";
-import "../Templates/expandable-section.js";
+import "../Cards/char-card-with-link-style-image-shower-audio.js";
+import "../Templates/expandable-section-v2.js";
 
 class DayTwo extends HTMLElement {
   constructor() {
@@ -13,18 +13,20 @@ class DayTwo extends HTMLElement {
       .map((char) => {
         return `
       <li>
-          <my-char-card-with-link-style
+          <my-char-card-with-link-style-image-shower-audio
             title-char="${char.titleChar}"
             reading-sound="${char.readingSound}"
             youtube-link="${char.youtubeLink}"
-          ></my-char-card-with-link-style>
+            image-url="${char.imageUrl}"
+            audio-url="${char.audioUrl}"
+          ></my-char-card-with-link-style-image-shower-audio>
         </li>`;
       })
       .join("");
 
     this.shadowRoot.innerHTML = `
     <my-expandable-section content-title="Day 2" >
-    <h2 slot="sub-title" style="display:block; color: blue;">ฎ -> น</h2>
+    <h2 slot="sub-title" style="display:block;">ฎ -> น</h2>
     <ol slot="detail" start=14>
     ${charList}
     </ol>
