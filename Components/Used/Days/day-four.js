@@ -1,6 +1,6 @@
 import dayFourData from "../data/day-four-data.js";
-import "../Cards/char-card-with-link-style-image-shower-audio.js";
-import "../Cards/char-card-with-link-style.js";
+import "../Cards/char-card-with-link-style-image-shower-audio-v2.js";
+import "../../UnusedTemplates/Cards/char-card-with-link-style.js";
 import "../Templates/expandable-section-v2.js";
 
 class DayFour extends HTMLElement {
@@ -14,13 +14,13 @@ class DayFour extends HTMLElement {
       .map((char) => {
         return `
       <li>
-          <my-char-card-with-link-style-image-shower-audio
+          <my-char-card-with-link-style-image-shower-audio-v2
             title-char="${char.titleChar}"
             reading-sound="${char.readingSound}"
             youtube-link="${char.youtubeLink}"
             image-url="${char.imageUrl}"
             audio-url="${char.audioUrl}"
-          ></my-char-card-with-link-style-image-shower-audio>
+          ></my-char-card-with-link-style-image-shower-audio-v2>
         </li>`;
       })
       .join("");
