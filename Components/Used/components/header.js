@@ -5,6 +5,8 @@ class ThaiHeader extends HTMLElement {
   }
 
   connectedCallback() {
+    const firstTitle = this.getAttribute("first-title") || "Si";
+    const lastTitle = this.getAttribute("last-title") || "Htoung";
     this.shadowRoot.innerHTML = `
       <style>
         @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap');
@@ -96,7 +98,7 @@ class ThaiHeader extends HTMLElement {
       <header class="navbar">
         <a href="#home" class="logo" data-target="home">
           <span class="logo-icon">ก</span>
-          <span>Hsi<span class="gold">Htoung</span></span>
+          <span>${firstTitle}<span class="gold">${lastTitle}</span></span>
         </a>
 
         <nav aria-label="Main navigation">
