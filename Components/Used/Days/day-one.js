@@ -1,5 +1,5 @@
 import dayOneData from "../data/day-one-data.js";
-import "../Cards/char-card-with-link-style-image-shower-audio.js";
+import "../Cards/char-card-with-link-style-image-shower-audio-v2.js";
 import "../Templates/expandable-section-v2.js";
 
 class DayOne extends HTMLElement {
@@ -12,13 +12,13 @@ class DayOne extends HTMLElement {
       .map((char) => {
         return `
       <li>
-          <my-char-card-with-link-style-image-shower-audio
+          <my-char-card-with-link-style-image-shower-audio-v2
             title-char="${char.titleChar}"
             reading-sound="${char.readingSound}"
             youtube-link="${char.youtubeLink}"
             image-url="${char.imageUrl}"
             audio-url="${char.audioUrl}"
-          ></my-char-card-with-link-style-image-shower-audio>
+          ></my-char-card-with-link-style-image-shower-audio-v2>
         </li>`;
       })
       .join("");
