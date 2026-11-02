@@ -21,6 +21,16 @@ class ThaiVowelCardWithAudio extends HTMLElement {
 
     this.shadowRoot.innerHTML = `
       <style>
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600;700&display=swap');
+
+        .reading-card__title,
+        .reading-card__sound {
+          font-family: "Noto Sans Thai", sans-serif !important;
+          font-kerning: normal;
+          font-variant-ligatures: none;
+          line-height: 2.5;
+          overflow: visible;
+        }
         :host {
           display: block;
           width: 100%;
