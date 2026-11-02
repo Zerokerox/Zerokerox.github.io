@@ -13,14 +13,20 @@
       type="module"
       src="Components/Used/components/main-lesson.js"
     ></script>
+    <script
+      type="module"
+      src="Components/Used/components/sidebar-with-slot.js"
+    ></script>
     <style></style>
   </head>
   <body>
-    <thai-header></thai-header>
-    <thai-hero></thai-hero>
-    <thai-intro></thai-intro>
-    <thai-lessons></thai-lessons>
-    <thai-footer></thai-footer>
+    <my-sidebar>
+      <thai-header></thai-header>
+      <thai-hero></thai-hero>
+      <thai-intro></thai-intro>
+      <thai-lessons></thai-lessons>
+      <thai-footer></thai-footer>
+    </my-sidebar>
 
     <!--
     <script>
@@ -33,5 +39,19 @@
         });
       }
     </script>-->
-  </body>
+
+    <!-- version 2-->
+
+    <!--
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker
+            .register("./sw.js")
+            .then(() => console.log("Service Worker registered"))
+            .catch((error) => console.error("Service Worker error:", error));
+        });
+      }
+    </script>
+  --></body>
 </html>
