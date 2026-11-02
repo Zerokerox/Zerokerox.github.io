@@ -1,4 +1,5 @@
 import "./lesson1.js";
+import "./lesson2.js";
 
 class ThaiLessons extends HTMLElement {
   constructor() {
@@ -87,6 +88,7 @@ class ThaiLessons extends HTMLElement {
         <div class="grid">
           <!-- ADD OR REMOVE SUB-LESSONS HERE -->
           <thai-lesson-1></thai-lesson-1>
+          <thai-lesson-2></thai-lesson-2>
         </div>
       </section>
     `;
