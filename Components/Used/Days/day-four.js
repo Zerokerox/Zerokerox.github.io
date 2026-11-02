@@ -1,6 +1,5 @@
 import dayFourData from "../data/day-four-data.js";
 import "../Cards/char-card-with-link-style-image-shower-audio-v2.js";
-import "../../UnusedTemplates/Cards/char-card-with-link-style.js";
 import "../Templates/expandable-section-v2.js";
 
 class DayFour extends HTMLElement {
