@@ -141,7 +141,7 @@ class ThaiVowelCardWithAudio extends HTMLElement {
           }
 
           .reading-card__title {
-            width: 64px;
+            width: 86px;
             height: 64px;
             font-size: 34px;
           }
