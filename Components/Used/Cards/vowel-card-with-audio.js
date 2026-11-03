@@ -18,19 +18,10 @@ class ThaiVowelCardWithAudio extends HTMLElement {
 
     this.shadowRoot.innerHTML = `
       <style>
-        // :host {
-        //   display: block;
-        //   width: 100%;
-        //   font-family: system-ui, sans-serif;
-        // }
-          :host {
+        :host {
           display: block;
           width: 100%;
-          font-family:
-            "Noto Sans Thai",
-            "Leelawadee UI",
-            Tahoma,
-            sans-serif;
+          font-family: system-ui, sans-serif;
         }
 
         .reading-card {
@@ -64,49 +55,22 @@ class ThaiVowelCardWithAudio extends HTMLElement {
           flex-shrink: 0;
         }
 
-        // .reading-card__title {
-        //   display: flex;
-        //   align-items: center;
-        //   justify-content: center;
-        //   width: 96px;
-        //   height: 96px;
-        //   margin: 0;
-        //   border-radius: 16px;
-        //   background: #eef2ff;
-        //   color: var(--accent);
-        //   font-size: 40px;
-        //   font-weight: 700;
-        //   line-height: 1.2;
-        // }
-
         .reading-card__title {
           display: flex;
           align-items: center;
           justify-content: center;
-
           width: 96px;
-          min-height: 96px;
-          box-sizing: border-box;
-
+          height: 96px;
           margin: 0;
-          padding: 12px 4px;
-
           border-radius: 16px;
           background: #eef2ff;
           color: var(--accent);
-
-          font-family:
-            "Noto Sans Thai",
-            "Leelawadee UI",
-            Tahoma,
-            sans-serif;
-
           font-size: 40px;
           font-weight: 700;
-          line-height: 1.6;
-
-          overflow: visible;
+          line-height: 1.2;
         }
+
+        
 
         .reading-card__speaker {
           display: flex;
@@ -161,31 +125,15 @@ class ThaiVowelCardWithAudio extends HTMLElement {
           font-weight: 500;
         }
 
-        // .reading-card__sound {
-        //   margin: 6px 0 0;
-        //   color: #1f2937;
-        //   font-size: 19px;
-        //   font-weight: 600;
-        //   overflow-wrap: anywhere;
-        // }
-
         .reading-card__sound {
           margin: 6px 0 0;
           color: #1f2937;
-
-          font-family:
-            "Noto Sans Thai",
-            "Leelawadee UI",
-            Tahoma,
-            sans-serif;
-
           font-size: 19px;
           font-weight: 600;
-          line-height: 1.8;
-
-          overflow: visible;
           overflow-wrap: anywhere;
         }
+
+        
 
         @media (max-width: 400px) {
           .reading-card {
@@ -199,11 +147,11 @@ class ThaiVowelCardWithAudio extends HTMLElement {
           }
 
           .reading-card__header {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 12px;
-}
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 12px;
+          }
 
           .reading-card__title-row {
             gap: 6px;
