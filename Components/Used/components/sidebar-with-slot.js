@@ -1,5 +1,5 @@
 import "./menu.js";
-import "./sidebar-v2.js";
+import "./sidebar-v3.js";
 class SideBarTemplate extends HTMLElement {
   constructor() {
     super();
