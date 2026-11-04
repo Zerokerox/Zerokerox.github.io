@@ -1,4 +1,4 @@
-const CACHE_NAME = "my-web-cache-v1.1";
+const CACHE_NAME = "my-web-cache-v1.2";
 
 // ===================================
 // เพิ่มไฟล์ใหม่ตรงนี้ได้เลย
