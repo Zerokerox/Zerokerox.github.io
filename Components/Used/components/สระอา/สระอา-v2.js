@@ -8,15 +8,50 @@ class ThaiSaraALesson extends HTMLElement {
         word: "ขา",
         spell: "ขอ อา ขา",
         icon: "🦵",
-        audio: "/Audio/สระไทย/า.m4a",
+        audio: "/Audio/สระอา/ขา.m4a",
       },
-      { word: "ยา", spell: "ยอ อา ยา", icon: "💊", audio: "" },
-      { word: "ตา", spell: "ตอ อา ตา", icon: "👁️", audio: "" },
-      { word: "ลา", spell: "ลอ อา ลา", icon: "🐴", audio: "" },
-      { word: "ฝา", spell: "ฝอ อา ฝา", icon: "🥘", audio: "" },
-      { word: "งา", spell: "งอ อา งา", icon: "🐘", audio: "" },
-      { word: "นา", spell: "นอ อา นา", icon: "🌾", audio: "" },
-      { word: "ทา", spell: "ทอ อา ทา", icon: "🖌️", audio: "" },
+      {
+        word: "ยา",
+        spell: "ยอ อา ยา",
+        icon: "💊",
+        audio: "/Audio/สระอา/ยา.m4a",
+      },
+      {
+        word: "ตา",
+        spell: "ตอ อา ตา",
+        icon: "👁️",
+        audio: "/Audio/สระอา/ตา.m4a",
+      },
+      {
+        word: "ลา",
+        spell: "ลอ อา ลา",
+        icon: "🐴",
+        audio: "/Audio/สระอา/ลา.m4a",
+      },
+      {
+        word: "ฝา",
+        spell: "ฝอ อา ฝา",
+        icon: "🥘",
+        audio: "/Audio/สระอา/ฝา.m4a",
+      },
+      {
+        word: "งา",
+        spell: "งอ อา งา",
+        icon: "🐘",
+        audio: "/Audio/สระอา/งา.m4a",
+      },
+      {
+        word: "นา",
+        spell: "นอ อา นา",
+        icon: "🌾",
+        audio: "/Audio/สระอา/นา.m4a",
+      },
+      {
+        word: "ทา",
+        spell: "ทอ อา ทา",
+        icon: "🖌️",
+        audio: "/Audio/สระอา/ทา.m4a",
+      },
     ];
     // 🫏
   }
