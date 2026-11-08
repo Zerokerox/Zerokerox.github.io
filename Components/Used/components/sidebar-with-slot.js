@@ -18,11 +18,16 @@ class SideBarTemplate extends HTMLElement {
           menu-name="Characters"
         ></my-menu>
         <my-menu target-url="./vowels.html" menu-name="Vowels"></my-menu>
+        
+       
         <my-menu target-url="./สระอา.html" menu-name="สระอา"></my-menu>
         <my-menu target-url="./สระอี.html" menu-name="สระอี"></my-menu>
         <my-menu target-url="./สระอู.html" menu-name="สระอู"></my-menu>
         <my-menu target-url="./สระเอ.html" menu-name="สระเอ"></my-menu>
         <my-menu target-url="./สระอะ.html" menu-name="สระอะ"></my-menu>
+        <my-menu target-url="./สระอิ.html" menu-name="สระอิ"></my-menu>
+        <my-menu target-url="./สระอุ.html" menu-name="สระอุ"></my-menu>
+        
 
         <!-- เพิ่ม Menu ได้เรื่อย ๆ -->
       </nav>
