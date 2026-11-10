@@ -1,5 +1,5 @@
 // make it receiver range request
-const CACHE_NAME = "my-web-cache-v8";
+const CACHE_NAME = "my-web-cache-v9";
 
 // ===================================
 // รายการไฟล์ Pre-cache
