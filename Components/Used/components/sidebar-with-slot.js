@@ -29,6 +29,7 @@ class SideBarTemplate extends HTMLElement {
         <my-menu target-url="./สระอุ.html" menu-name="สระอุ"></my-menu>
         <my-menu target-url="./สระโอ.html" menu-name="สระโอ"></my-menu>
         <my-menu target-url="./สระใอ.html" menu-name="สระใอ"></my-menu>
+        <my-menu target-url="./สระไอ.html" menu-name="สระไอ"></my-menu>
         
 
         <!-- เพิ่ม Menu ได้เรื่อย ๆ -->
