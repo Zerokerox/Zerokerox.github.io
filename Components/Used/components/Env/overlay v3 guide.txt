@@ -1,0 +1,27 @@
+
+**how to install
+
+<script src="/rain-overlay.js"></script>
+
+<rain-overlay
+  intensity="0.9"
+  rain-size="0.8"
+  droplet-size="1.2"
+  large-drop-size="1.8"
+  streak-size="1.2"
+  droplets="true"
+  falling="true"
+  glass="true">
+</rain-overlay>
+
+
+
+**controller
+
+
+const rain = document.querySelector('rain-overlay');
+
+rain.setAttribute('rain-size', '0.5');
+rain.setAttribute('droplet-size', '2');
+rain.setAttribute('large-drop-size', '2.5');
+rain.setAttribute('streak-size', '1.5');

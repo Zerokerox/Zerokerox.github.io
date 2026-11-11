@@ -1,0 +1,51 @@
+
+how to install overlay
+<script src="/rain-overlay.js"></script>
+
+<rain-overlay
+  intensity="0.7"
+  droplets="true"
+  falling="true"
+  glass="true">
+</rain-overlay>
+
+
+how to adjust
+const rain = document.querySelector('rain-overlay');
+
+// ปรับความแรงของฝน
+rain.setAttribute('intensity', '0.9');
+
+// ปิดฝนที่ตก
+rain.setAttribute('falling', 'false');
+
+// ปิดหยดน้ำ
+rain.setAttribute('droplets', 'false');
+
+// หยุด animation
+rain.pause();
+
+// เล่นต่อ
+rain.resume();
+
+// ลบออกจากหน้าเว็บ
+rain.remove();
+
+
+version 2 controller
+const rain = document.querySelector('rain-overlay');
+
+// เฉพาะฝนตก
+rain.setAttribute('droplets', 'false');
+rain.setAttribute('glass', 'false');
+
+// เฉพาะหยดน้ำเกาะกระจก
+rain.setAttribute('falling', 'false');
+
+// เปิดทุก Layer
+rain.setAttribute('droplets', 'true');
+rain.setAttribute('falling', 'true');
+rain.setAttribute('glass', 'true');
+
+// เพิ่มความเข้ม
+rain.setAttribute('intensity', '1');
