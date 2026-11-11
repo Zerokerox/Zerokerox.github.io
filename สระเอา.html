@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>สระไอ</title>
+
+    <script
+      type="module"
+      src="Components/Used/components/sidebar-with-slot-v2.js"
+    ></script>
+    <script
+      type="module"
+      src="Components/Used/components/header-with-center-text-v3.js"
+    ></script>
+    <script
+      type="module"
+      src="Components/Used/components/สระเอา/หัวข้อสระ.js"
+    ></script>
+    <script
+      type="module"
+      src="Components/Used/components/สระเอา/สระเอา-v2.js"
+    ></script>
+    <script
+      type="module"
+      src="Components/Used/components/สระเอา/ฝึกอ่านสระเอา-v2.js"
+    ></script>
+    <script
+      type="module"
+      src="Components/Used/components/สระเอา/ฝึกอ่านสระเอา-p2-v2.js"
+    ></script>
+    <script
+      type="module"
+      src="Components/Used/components/สระเอา/ฝึกอ่านสระเอา-p3-v2.js"
+    ></script>
+    <script
+      type="module"
+      src="Components/Used/components/สระเอา/ฝึกอ่านสระเอาเป็นแถว-v2.js"
+    ></script>
+    <script
+      type="module"
+      src="Components/Used/components/Env/rain-overlay-v3.js"
+    ></script>
+  </head>
+  <body>
+    <rain-overlay
+      intensity="0.7"
+      rain-size="0.1"
+      droplet-size="0.1"
+      large-drop-size="0.2"
+      streak-size="0.7"
+      droplets="true"
+      falling="true"
+      glass="true"
+    >
+    </rain-overlay>
+    <my-sidebar>
+      <thai-header first-title=" " last-title=" "></thai-header>
+      <thai-sara-title
+        sara="เ-า"
+        sara-name="สระเอา"
+        example="เตา"
+        reading="ตอ เอา เตา"
+      ></thai-sara-title>
+      <thai-sara-lesson></thai-sara-lesson>
+      <thai-reading-practice></thai-reading-practice>
+      <thai-reading-phrases></thai-reading-phrases>
+      <thai-reading-phrases2></thai-reading-phrases2>
+      <thai-reading-lesson-page></thai-reading-lesson-page>
+    </my-sidebar>
+
+    <script></script>
+  </body>
+</html>
