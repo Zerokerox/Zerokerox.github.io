@@ -1,0 +1,139 @@
+import "./menu-v2.js";
+import "./sidebar-v4.js";
+import { sidebarMenus } from "../data/sidebar-menu-v2.js";
+
+class SideBarTemplate extends HTMLElement {
+  constructor() {
+    super();
+    this.attachShadow({ mode: "open" });
+  }
+
+  connectedCallback() {
+    this.render();
+  }
+
+  render() {
+    const menuHTML = sidebarMenus
+      .map(
+        (book) => `
+          <section class="book-section">
+            <h3>${book.title}</h3>
+
+            ${book.menus
+              .map(
+                (menu) => `
+                  <my-menu
+                    target-url="${menu.url}"
+                    menu-name="${menu.name}"
+                  ></my-menu>
+                `,
+              )
+              .join("")}
+          </section>
+        `,
+      )
+      .join("");
+
+    this.shadowRoot.innerHTML = `
+      <style>
+        :host {
+          display: block;
+          min-height: 100vh;
+
+          --glass-bg: rgba(255, 255, 255, 0.62);
+          --glass-border: rgba(255, 255, 255, 0.8);
+          --glass-shadow: 0 8px 32px rgba(70, 85, 130, 0.10);
+          --glass-blur: 18px;
+          --primary-color: #7356a5;
+
+          background:
+            radial-gradient(
+              circle at 10% 10%,
+              rgba(180, 200, 255, 0.45),
+              transparent 40%
+            ),
+            radial-gradient(
+              circle at 90% 80%,
+              rgba(255, 200, 220, 0.35),
+              transparent 40%
+            ),
+            linear-gradient(
+              135deg,
+              #edf3ff,
+              #f7f0fa,
+              #e9f2ff
+            );
+        }
+
+        * {
+          box-sizing: border-box;
+        }
+
+        app-sidebar {
+          display: block;
+          min-height: 100vh;
+        }
+
+        nav[slot="menu"] {
+          padding: 18px 12px;
+          background: rgba(255, 255, 255, 0.58);
+          border-right: 1px solid var(--glass-border);
+          backdrop-filter: blur(var(--glass-blur));
+          -webkit-backdrop-filter: blur(var(--glass-blur));
+        }
+
+        h2 {
+          font-size: 19px;
+          font-weight: 800;
+          color: var(--primary-color);
+          padding: 12px 14px;
+          margin: 0 0 18px;
+          border-radius: 14px;
+          background: rgba(255, 255, 255, 0.48);
+          box-shadow:
+            inset 0 1px 1px rgba(255,255,255,0.9),
+            0 4px 12px rgba(80,90,130,0.05);
+        }
+
+        .book-section {
+          margin-bottom: 22px;
+        }
+
+        h3 {
+          font-size: 15px;
+          font-weight: 700;
+          color: #7356a5;
+          padding: 10px 14px;
+          margin: 0 0 8px;
+          border-left: 3px solid #7356a5;
+          background: rgba(255, 255, 255, 0.4);
+          border-radius: 8px;
+        }
+
+        nav ::slotted(my-menu) {
+          display: block;
+          margin-bottom: 8px;
+        }
+
+        @media (max-width: 768px) {
+          nav[slot="menu"] {
+            padding: 12px 8px;
+          }
+        }
+      </style>
+
+      <app-sidebar width="280px">
+        <nav slot="menu">
+          <h2>My Application</h2>
+          ${menuHTML}
+        </nav>
+
+        <slot></slot>
+      </app-sidebar>
+    `;
+  }
+}
+
+if (!customElements.get("my-sidebar")) {
+  customElements.define("my-sidebar", SideBarTemplate);
+}
