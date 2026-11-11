@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ทวบทวน</title>
+    <script
+      type="module"
+      src="/Components/Used/components/Env/rain-overlay-v3.js"
+    ></script>
+    <script
+      type="module"
+      src="/Components/Used/components/sidebar-with-slot-v3.js"
+    ></script>
+
+    <script
+      type="module"
+      src="/Components/Used/components/header-with-center-text-v3.js"
+    ></script>
+    <script type="module" src="/Book2/components/ทบทวน/ทบทวน-v3.js"></script>
+  </head>
+  <body>
+    <rain-overlay
+      intensity="0.7"
+      rain-size="0.1"
+      droplet-size="0.1"
+      large-drop-size="0.2"
+      streak-size="0.7"
+      droplets="true"
+      falling="true"
+      glass="true"
+    >
+    </rain-overlay>
+    <my-sidebar>
+      <thai-header first-title=" " last-title=" "></thai-header>
+      <thai-reading-practice
+        words='[
+    {"word":"-ะ","audio":""},
+    {"word":"ปะ","audio":""},
+    {"word":"จะ","audio":""},
+    {"word":"ฮะ","audio":""},
+    {"word":"ละ","audio":""},
+    {"word":"นะ","audio":""},
+    {"word":"ยะ","audio":""}
+  ]'
+      ></thai-reading-practice>
+      <thai-reading-practice
+        words='[
+    {"word":"-า","audio":""},
+    {"word":"ตา","audio":""},
+    {"word":"อา","audio":""},
+    {"word":"ทา","audio":""},
+    {"word":"ยา","audio":""},
+    {"word":"ชา","audio":""},
+    {"word":"รา","audio":""}
+    
+  ]'
+      ></thai-reading-practice>
+      <thai-reading-practice
+        words='[
+    {"word":"- ิ","audio":""},
+    {"word":"ทิ","audio":""},
+    {"word":"นิ","audio":""},
+    {"word":"พิ","audio":""},
+    {"word":"มิ","audio":""},
+    {"word":"วิ","audio":""},
+    {"word":"ฮิ","audio":""}
+  ]'
+      ></thai-reading-practice>
+      <thai-reading-practice
+        words='[
+    {"word":"- ี","audio":""},
+    {"word":"ตี","audio":""},
+    {"word":"ดี","audio":""},
+    {"word":"สี","audio":""},
+    {"word":"ที","audio":""},
+    {"word":"รี","audio":""},
+    {"word":"พี","audio":""}
+  ]'
+      ></thai-reading-practice>
+      <thai-reading-practice
+        words='[
+    {"word":"- ุ","audio":""},
+    {"word":"ฉุ","audio":""},
+    {"word":"ผุ","audio":""},
+    {"word":"ดุ","audio":""},
+    {"word":"ปุ","audio":""},
+    {"word":"ชุ","audio":""},
+    {"word":"ยุ","audio":""}
+    
+  ]'
+      ></thai-reading-practice>
+      <thai-reading-practice
+        words='[
+    {"word":"- ู","audio":""},
+    {"word":"งู","audio":""},
+    {"word":"ชู","audio":""},
+    {"word":"ทู","audio":""},
+    {"word":"ปู","audio":""},
+    {"word":"พู","audio":""},
+    {"word":"รู","audio":""}
+    
+    
+  ]'
+      ></thai-reading-practice>
+    </my-sidebar>
+  </body>
+</html>
