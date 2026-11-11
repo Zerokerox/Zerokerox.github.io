@@ -55,4 +55,8 @@ export const sidebarMenus = [
     name: "สระอำ",
     url: "./สระอำ.html",
   },
+  {
+    name: "สระเอา",
+    url: "./สระเอา.html",
+  },
 ];
