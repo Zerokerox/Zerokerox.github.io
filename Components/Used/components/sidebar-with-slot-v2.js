@@ -1,5 +1,6 @@
 import "./menu-v2.js";
 import "./sidebar-v4.js";
+import { sidebarMenus } from "../data/sidebar-menu.js";
 
 class SideBarTemplate extends HTMLElement {
   constructor() {
@@ -12,6 +13,17 @@ class SideBarTemplate extends HTMLElement {
   }
 
   render() {
+    const menuHTML = sidebarMenus
+      .map(
+        (menu) => `
+    <my-menu
+      target-url="${menu.url}"
+      menu-name="${menu.name}"
+    ></my-menu>
+  `,
+      )
+      .join("");
+
     this.shadowRoot.innerHTML = `
       <style>
         :host {
@@ -103,70 +115,7 @@ class SideBarTemplate extends HTMLElement {
 
           <h2>My Application</h2>
 
-          <my-menu
-            target-url="./index.html"
-            menu-name="Home"
-          ></my-menu>
-
-          <my-menu
-            target-url="./characters.html"
-            menu-name="Characters"
-          ></my-menu>
-
-          <my-menu
-            target-url="./vowels.html"
-            menu-name="Vowels"
-          ></my-menu>
-
-          <my-menu
-            target-url="./สระอา.html"
-            menu-name="สระอา"
-          ></my-menu>
-
-          <my-menu
-            target-url="./สระอี.html"
-            menu-name="สระอี"
-          ></my-menu>
-
-          <my-menu
-            target-url="./สระอู.html"
-            menu-name="สระอู"
-          ></my-menu>
-
-          <my-menu
-            target-url="./สระเอ.html"
-            menu-name="สระเอ"
-          ></my-menu>
-
-          <my-menu
-            target-url="./สระอะ.html"
-            menu-name="สระอะ"
-          ></my-menu>
-
-          <my-menu
-            target-url="./สระอิ.html"
-            menu-name="สระอิ"
-          ></my-menu>
-
-          <my-menu
-            target-url="./สระอุ.html"
-            menu-name="สระอุ"
-          ></my-menu>
-
-          <my-menu
-            target-url="./สระโอ.html"
-            menu-name="สระโอ"
-          ></my-menu>
-
-          <my-menu
-            target-url="./สระใอ.html"
-            menu-name="สระใอ"
-          ></my-menu>
-
-          <my-menu
-            target-url="./สระไอ.html"
-            menu-name="สระไอ"
-          ></my-menu>
+          ${menuHTML}
 
         </nav>
 
