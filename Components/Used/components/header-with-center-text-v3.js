@@ -210,7 +210,7 @@ class ThaiHeader extends HTMLElement {
       <header class="navbar">
 
         <!-- Logo -->
-        <a href="index.html" class="logo">
+        <a href="/index.html" class="logo">
 
           <span class="logo-icon">ก</span>
 
