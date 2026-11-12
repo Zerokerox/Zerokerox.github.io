@@ -18,6 +18,12 @@
       src="/Components/Used/components/header-with-center-text-v3.js"
     ></script>
     <script type="module" src="/Book2/components/ทบทวน/ทบทวน-v3.js"></script>
+    <script type="module" src="/Book2/components/ทบทวน/ทบทวน-p2-v2.js"></script>
+    <script type="module" src="/Book2/components/ทบทวน/ทบทวน-p3-v2.js"></script>
+    <script
+      type="module"
+      src="/Book2/components/ทบทวน/image-audio-card-v2.js"
+    ></script>
   </head>
   <body>
     <rain-overlay
@@ -32,7 +38,7 @@
     >
     </rain-overlay>
     <my-sidebar>
-      <thai-header first-title=" " last-title=" "></thai-header>
+      <thai-header first-title="ทบ" last-title="ทวน"></thai-header>
       <thai-reading-practice
         words='[
     {"word":"-ะ","audio":""},
@@ -103,6 +109,97 @@
     
   ]'
       ></thai-reading-practice>
+      <thai-reading-practice
+        words='[
+    {"word":"เ-","audio":""},
+    {"word":"เข","audio":""},
+    {"word":"เจ","audio":""},
+    {"word":"เท","audio":""},
+    {"word":"เม","audio":""},
+    {"word":"เล","audio":""},
+    {"word":"เฮ","audio":""}
+  ]'
+      ></thai-reading-practice>
+      <thai-reading-practice
+        words='[
+    {"word":"โ-","audio":""},
+    {"word":"โค","audio":""},
+    {"word":"โท","audio":""},
+    {"word":"โล","audio":""},
+    {"word":"โย","audio":""},
+    {"word":"โห","audio":""},
+    {"word":"โฮ","audio":""}
+  ]'
+      ></thai-reading-practice>
+      <thai-reading-practice
+        words='[
+    {"word":"ไ-","audio":""},
+    {"word":"ไว","audio":""},
+    {"word":"ไย","audio":""},
+    {"word":"ไส","audio":""},
+    {"word":"ไห","audio":""},
+    {"word":"ไช","audio":""},
+    {"word":"ไต","audio":""}
+    
+  ]'
+      ></thai-reading-practice>
+      <thai-reading-practice
+        words='[
+    {"word":"ใ-","audio":""},
+    {"word":"ใน","audio":""},
+    {"word":"ใบ","audio":""},
+    {"word":"ใย","audio":""},
+    {"word":"ใส","audio":""},
+    {"word":"ใช","audio":""},
+    {"word":"ให","audio":""}
+  ]'
+      ></thai-reading-practice>
+      <thai-reading-practice
+        words='[
+    {"word":"- ำ","audio":""},
+    {"word":"กำ","audio":""},
+    {"word":"จำ","audio":""},
+    {"word":"ชำ","audio":""},
+    {"word":"ยำ","audio":""},
+    {"word":"ขำ","audio":""},
+    {"word":"ตำ","audio":""}
+    
+  ]'
+      ></thai-reading-practice>
+      <thai-reading-practice
+        words='[
+    {"word":"เ-า","audio":""},
+    {"word":"เกา","audio":""},
+    {"word":"เขา","audio":""},
+    {"word":"เงา","audio":""},
+    {"word":"เทา","audio":""},
+    {"word":"เมา","audio":""},
+    {"word":"เรา","audio":""}
+  ]'
+      ></thai-reading-practice>
+      <thai-reading-phrases></thai-reading-phrases>
+      <thai-reading-phrases2></thai-reading-phrases2>
+      <image-audio-cards id="readingCards"> </image-audio-cards>
     </my-sidebar>
+
+    <script>
+      const cards = [
+        {
+          image:
+            "https://th.bing.com/th/id/OIP.rbDy4k2KfiqIFxDKvyJuagHaEK?w=316&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
+          imageAlt: "ไถนา",
+
+          texts: [
+            { text: "อาสาพาโคกำยำไปไถนาไวไว", audio: "./audio/a.mp3" },
+            { text: "สุดาดีใจอาวีระใจดีพาไปทะเล", audio: "./audio/a.mp3" },
+            { text: "อีกามาดูปูขาเกโซเซไปมา", audio: "./audio/a.mp3" },
+          ],
+        },
+      ];
+
+      customElements.whenDefined("image-audio-cards").then(() => {
+        document.querySelector("#readingCards").data = cards;
+      });
+    </script>
   </body>
 </html>
