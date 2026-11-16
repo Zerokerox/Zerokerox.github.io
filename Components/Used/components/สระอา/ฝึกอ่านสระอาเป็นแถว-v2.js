@@ -12,33 +12,33 @@ class ThaiSentenceLesson extends HTMLElement {
 
         image: "/Images/สระอา/ตาพาอามาศาลา.jpg",
 
-        sentenceAudio: "audio/sentence-1.mp3",
+        sentenceAudio: "/Audio/สระอา/ตาพาอามาศาลา/ตาพาอามาศาลา.m4a",
 
         words: [
           {
             word: "ตา",
             spell: "ตอ อา ตา",
-            audio: "audio/ta.mp3",
+            audio: "/Audio/สระอา/ตา พา อา มา ศา ลา/ตา-1.m4a",
           },
           {
             word: "พา",
             spell: "พอ อา พา",
-            audio: "audio/pha.mp3",
+            audio: "/Audio/สระอา/ตา พา อา มา ศา ลา/พา-1.m4a",
           },
           {
             word: "อา",
             spell: "ออ อา อา",
-            audio: "audio/a.mp3",
+            audio: "/Audio/สระอา/ตา พา อา มา ศา ลา/อา-1.m4a",
           },
           {
             word: "มา",
             spell: "มอ อา มา",
-            audio: "audio/ma.mp3",
+            audio: "/Audio/สระอา/ตา พา อา มา ศา ลา/มา-1.m4a",
           },
           {
             word: "ศาลา",
             spell: "สอ อา ศา / ลอ อา ลา",
-            audio: "audio/sala.mp3",
+            audio: "/Audio/สระอา/ตา พา อา มา ศา ลา/ศาลา.m4a",
           },
         ],
       },
@@ -49,38 +49,38 @@ class ThaiSentenceLesson extends HTMLElement {
 
         image: "/Images/สระอา/อาทายาชาขาตา.jpg",
 
-        sentenceAudio: "audio/sentence-2.mp3",
+        sentenceAudio: "/Audio/สระอา/อาทายาชาขาตา/อาทายาชาขาตา.m4a",
 
         words: [
           {
             word: "อา",
             spell: "ออ อา อา",
-            audio: "audio/a.mp3",
+            audio: "/Audio/สระอา/อา ทา ยา ชา ขา ตา/อา-1.m4a",
           },
           {
             word: "ทา",
             spell: "ทอ อา ทา",
-            audio: "audio/tha.mp3",
+            audio: "/Audio/สระอา/อา ทา ยา ชา ขา ตา/ทา-1.m4a",
           },
           {
             word: "ยา",
             spell: "ยอ อา ยา",
-            audio: "audio/ya.mp3",
+            audio: "/Audio/สระอา/อา ทา ยา ชา ขา ตา/ยา.m4a",
           },
           {
             word: "ชา",
             spell: "ชอ อา ชา",
-            audio: "audio/cha.mp3",
+            audio: "/Audio/สระอา/อา ทา ยา ชา ขา ตา/ชา.m4a",
           },
           {
             word: "ขา",
             spell: "ขอ อา ขา",
-            audio: "audio/kha.mp3",
+            audio: "/Audio/สระอา/อา ทา ยา ชา ขา ตา/ขา.m4a",
           },
           {
             word: "ตา",
             spell: "ตอ อา ตา",
-            audio: "audio/ta.mp3",
+            audio: "/Audio/สระอา/อา ทา ยา ชา ขา ตา/ตา-1.m4a",
           },
         ],
       },

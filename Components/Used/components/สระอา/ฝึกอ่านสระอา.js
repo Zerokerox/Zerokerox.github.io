@@ -4,26 +4,106 @@ class ThaiReadingPractice extends HTMLElement {
     this.attachShadow({ mode: "open" });
 
     this.wordsData = [
-      { word: "กา", spell: "กอ อา กา", audio: "/Audio/สระไทย/ฤ.m4a" },
-      { word: "ขา", spell: "ขอ อา ขา", audio: "" },
-      { word: "คา", spell: "คอ อา คา", audio: "" },
-      { word: "งา", spell: "งอ อา งา", audio: "" },
-      { word: "จา", spell: "จอ อา จา", audio: "" },
-      { word: "ชา", spell: "ชอ อา ชา", audio: "" },
-      { word: "ซา", spell: "ซอ อา ซา", audio: "" },
-      { word: "ตา", spell: "ตอ อา ตา", audio: "" },
-      { word: "ทา", spell: "ทอ อา ทา", audio: "" },
-      { word: "นา", spell: "นอ อา นา", audio: "" },
-      { word: "ปา", spell: "ปอ อา ปา", audio: "" },
-      { word: "ผา", spell: "ผอ อา ผา", audio: "" },
-      { word: "ฝา", spell: "ฝอ อา ฝา", audio: "" },
-      { word: "มา", spell: "มอ อา มา", audio: "" },
-      { word: "ยา", spell: "ยอ อา ยา", audio: "" },
-      { word: "รา", spell: "รอ อา รา", audio: "" },
-      { word: "ลา", spell: "ลอ อา ลา", audio: "" },
-      { word: "วา", spell: "วอ อา วา", audio: "" },
-      { word: "สา", spell: "สอ อา สา", audio: "" },
-      { word: "หา", spell: "หอ อา หา", audio: "" },
+      {
+        word: "กา",
+        spell: "กอ อา กา",
+        audio: "/Audio/สระอา/ฝึกอ่านคำต่อไปนี้/Cut Clip/กา.m4a",
+      },
+      {
+        word: "ขา",
+        spell: "ขอ อา ขา",
+        audio: "/Audio/สระอา/ฝึกอ่านคำต่อไปนี้/ขา.m4a",
+      },
+      {
+        word: "คา",
+        spell: "คอ อา คา",
+        audio: "/Audio/สระอา/ฝึกอ่านคำต่อไปนี้/คา.m4a",
+      },
+      {
+        word: "งา",
+        spell: "งอ อา งา",
+        audio: "/Audio/สระอา/ฝึกอ่านคำต่อไปนี้/งา.m4a",
+      },
+      {
+        word: "จา",
+        spell: "จอ อา จา",
+        audio: "/Audio/สระอา/ฝึกอ่านคำต่อไปนี้/จา.m4a",
+      },
+      {
+        word: "ชา",
+        spell: "ชอ อา ชา",
+        audio: "/Audio/สระอา/ฝึกอ่านคำต่อไปนี้/ชา.m4a",
+      },
+      {
+        word: "ซา",
+        spell: "ซอ อา ซา",
+        audio: "/Audio/สระอา/ฝึกอ่านคำต่อไปนี้/ซา.m4a",
+      },
+      {
+        word: "ตา",
+        spell: "ตอ อา ตา",
+        audio: "/Audio/สระอา/ฝึกอ่านคำต่อไปนี้/ตา.m4a",
+      },
+      {
+        word: "ทา",
+        spell: "ทอ อา ทา",
+        audio: "/Audio/สระอา/ฝึกอ่านคำต่อไปนี้/ทา.m4a",
+      },
+      {
+        word: "นา",
+        spell: "นอ อา นา",
+        audio: "/Audio/สระอา/ฝึกอ่านคำต่อไปนี้/นา.m4a",
+      },
+      {
+        word: "ปา",
+        spell: "ปอ อา ปา",
+        audio: "/Audio/สระอา/ฝึกอ่านคำต่อไปนี้/ปา.m4a",
+      },
+      {
+        word: "ผา",
+        spell: "ผอ อา ผา",
+        audio: "/Audio/สระอา/ฝึกอ่านคำต่อไปนี้/ผา.m4a",
+      },
+      {
+        word: "ฝา",
+        spell: "ฝอ อา ฝา",
+        audio: "/Audio/สระอา/ฝึกอ่านคำต่อไปนี้/ฝา.m4a",
+      },
+      {
+        word: "มา",
+        spell: "มอ อา มา",
+        audio: "/Audio/สระอา/ฝึกอ่านคำต่อไปนี้/มา.m4a",
+      },
+      {
+        word: "ยา",
+        spell: "ยอ อา ยา",
+        audio: "/Audio/สระอา/ฝึกอ่านคำต่อไปนี้/ยา.m4a",
+      },
+      {
+        word: "รา",
+        spell: "รอ อา รา",
+        audio: "/Audio/สระอา/ฝึกอ่านคำต่อไปนี้/รา.m4a",
+      },
+      {
+        word: "ลา",
+        spell: "ลอ อา ลา",
+        audio: "/Audio/สระอา/ฝึกอ่านคำต่อไปนี้/ลา.m4a",
+      },
+      {
+        word: "วา",
+        spell: "วอ อา วา",
+        audio: "/Audio/สระอา/ฝึกอ่านคำต่อไปนี้/วา.m4a",
+      },
+      {
+        word: "สา",
+        spell: "สอ อา สา",
+        audio: "/Audio/สระอา/ฝึกอ่านคำต่อไปนี้/สา.m4a",
+      },
+      {
+        word: "หา",
+        spell: "หอ อา หา",
+        audio: "/Audio/สระอา/ฝึกอ่านคำต่อไปนี้/หา.m4a",
+      },
     ];
   }
 

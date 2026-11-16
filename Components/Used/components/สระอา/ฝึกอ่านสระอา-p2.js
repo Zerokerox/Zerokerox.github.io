@@ -9,39 +9,87 @@ class ThaiReadingPhrases extends HTMLElement {
         word: "ศาลา",
         spell: "สอ อา ศา / ลอ อา ลา",
         icon: "⛩️",
-        audio: "",
+        audio: "/Audio/สระอา/ศาลา/ศาลา.m4a",
       },
       {
         word: "ฝากา",
         spell: "ฝอ อา ฝา / กอ อา กา",
         icon: "🥘",
-        audio: "",
+        audio: "/Audio/สระอา/ศาลา/ฝากา.m4a",
       },
       {
         word: "ทายา",
         spell: "ทอ อา ทา / ยอ อา ยา",
         icon: "🧴",
-        audio: "",
+        audio: "/Audio/สระอา/ศาลา/ทายา.m4a",
       },
     ];
 
     // ข้อมูลคำศัพท์ 12 คำ
     this.wordsData = [
-      { word: "ตาอา", spell: "ตอ อา ตา / ออ อา อา", audio: "" },
-      { word: "ฝากา", spell: "ฝอ อา ฝา / กอ อา กา", audio: "" },
-      { word: "มาหา", spell: "มอ อา มา / หอ อา หา", audio: "" },
+      {
+        word: "ตาอา",
+        spell: "ตอ อา ตา / ออ อา อา",
+        audio: "/Audio/สระอา/ศาลา/ตาอา.m4a",
+      },
+      {
+        word: "ฝากา",
+        spell: "ฝอ อา ฝา / กอ อา กา",
+        audio: "/Audio/สระอา/ศาลา/ฝากา.m4a",
+      },
+      {
+        word: "มาหา",
+        spell: "มอ อา มา / หอ อา หา",
+        audio: "/Audio/สระอา/ศาลา/มาหา.m4a",
+      },
 
-      { word: "ปากา", spell: "ปอ อา ปา / กอ อา กา", audio: "" },
-      { word: "ยาชา", spell: "ยอ อา ยา / ชอ อา ชา", audio: "" },
-      { word: "คาถา", spell: "คอ อา คา / ถอ อา ถา", audio: "" },
+      {
+        word: "ปากา",
+        spell: "ปอ อา ปา / กอ อา กา",
+        audio: "/Audio/สระอา/ศาลา/ปากา.m4a",
+      },
+      {
+        word: "ยาชา",
+        spell: "ยอ อา ยา / ชอ อา ชา",
+        audio: "/Audio/สระอา/ศาลา/ยาชา.m4a",
+      },
+      {
+        word: "คาถา",
+        spell: "คอ อา คา / ถอ อา ถา",
+        audio: "/Audio/สระอา/ศาลา/คาถา.m4a",
+      },
 
-      { word: "วาจา", spell: "วอ อา วา / จอ อา จา", audio: "" },
-      { word: "ศาลา", spell: "สอ อา ศา / ลอ อา ลา", audio: "" },
-      { word: "มานา", spell: "มอ อา มา / นอ อา นา", audio: "" },
+      {
+        word: "วาจา",
+        spell: "วอ อา วา / จอ อา จา",
+        audio: "/Audio/สระอา/ศาลา/วาจา.m4a",
+      },
+      {
+        word: "ศาลา",
+        spell: "สอ อา ศา / ลอ อา ลา",
+        audio: "/Audio/สระอา/ศาลา/ศาลา.m4a",
+      },
+      {
+        word: "มานา",
+        spell: "มอ อา มา / นอ อา นา",
+        audio: "/Audio/สระอา/ศาลา/มานา.m4a",
+      },
 
-      { word: "อาสา", spell: "ออ อา อา / สอ อา สา", audio: "" },
-      { word: "ราคา", spell: "รอ อา รา / คอ อา คา", audio: "" },
-      { word: "ทายา", spell: "ทอ อา ทา / ยอ อา ยา", audio: "" },
+      {
+        word: "อาสา",
+        spell: "ออ อา อา / สอ อา สา",
+        audio: "/Audio/สระอา/ศาลา/อาสา.m4a",
+      },
+      {
+        word: "ราคา",
+        spell: "รอ อา รา / คอ อา คา",
+        audio: "/Audio/สระอา/ศาลา/ราคา.m4a",
+      },
+      {
+        word: "ทายา",
+        spell: "ทอ อา ทา / ยอ อา ยา",
+        audio: "/Audio/สระอา/ศาลา/ทายา.m4a",
+      },
     ];
   }
 
