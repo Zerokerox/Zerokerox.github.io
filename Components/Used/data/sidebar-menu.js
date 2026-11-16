@@ -59,4 +59,16 @@ export const sidebarMenus = [
     name: "สระเอา",
     url: "/สระเอา.html",
   },
+  {
+    name: "ทบทวน",
+    url: "/Book2/ทบทวน.html",
+  },
+  {
+    name: "สระออ",
+    url: "/Book2/สระออ.html",
+  },
+  {
+    name: "สระอือ",
+    url: "/Book2/สระอือ.html",
+  },
 ];
