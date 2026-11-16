@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ทวบทวน</title>
+    <script
+      type="module"
+      src="/Components/Used/components/Env/floating overlay/floating-feathers.js"
+    ></script>
+    <script
+      type="module"
+      src="/Components/Used/components/Env/Magic particle/magic-particles.js"
+    ></script>
+    <script
+      type="module"
+      src="/Components/Used/components/Env/rain-overlay-v3.js"
+    ></script>
+    <script
+      type="module"
+      src="/Components/Used/components/sidebar-with-slot-v3.js"
+    ></script>
+
+    <script
+      type="module"
+      src="/Components/Used/components/header-with-center-text-v3.js"
+    ></script>
+    <script type="module" src="/Book2/components/สระอือ/หัวข้อสระ.js"></script>
+    <script
+      type="module"
+      src="/Book2/components/สระอือ/ฝึกอ่านสระอือ-v2.js"
+    ></script>
+    <script
+      type="module"
+      src="/Book2/components/สระอือ/ฝึกอ่านสระอือ-p2-v2.js"
+    ></script>
+    <script
+      type="module"
+      src="/Book2/components/สระอือ/ฝึกอ่านสระอือเป็นแถว.js"
+    ></script>
+  </head>
+  <body>
+    <!-- soft and peacful -->
+    <feather-overlay
+      count="15"
+      speed="0.4"
+      size="0.8"
+      opacity="0.55"
+      wind="0.3"
+      glow="0.5"
+    >
+    </feather-overlay>
+    <magic-particles
+      count="75"
+      speed="0.8"
+      size="1"
+      opacity="0.85"
+      glow="1.4"
+      wind="0.4"
+      color="gold"
+    >
+    </magic-particles>
+    <!-- <rain-overlay
+      intensity="0.7"
+      rain-size="0.1"
+      droplet-size="0.1"
+      large-drop-size="0.2"
+      streak-size="0.7"
+      droplets="true"
+      falling="true"
+      glass="true"
+    >
+    </rain-overlay> -->
+    <my-sidebar>
+      <thai-header first-title=" " last-title=" "></thai-header>
+      <thai-sara-title
+        sara="- ือ"
+        sara-name="สระอือ"
+        example="มือ"
+        reading="มอ อือ มือ"
+      ></thai-sara-title>
+      <thai-reading-practice></thai-reading-practice>
+      <thai-reading-phrases></thai-reading-phrases>
+      <thai-reading-lesson-page></thai-reading-lesson-page>
+    </my-sidebar>
+  </body>
+</html>
