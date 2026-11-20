@@ -4,26 +4,106 @@ class ThaiReadingPractice extends HTMLElement {
     this.attachShadow({ mode: "open" });
 
     this.wordsData = [
-      { word: "กี", spell: "กอ อา กา", audio: "/Audio/สระไทย/ฤ.m4a" },
-      { word: "จี", spell: "ขอ อา ขา", audio: "" },
-      { word: "ดี", spell: "คอ อา คา", audio: "" },
-      { word: "ตี", spell: "งอ อา งา", audio: "" },
-      { word: "อี", spell: "จอ อา จา", audio: "" },
-      { word: "ขี", spell: "ชอ อา ชา", audio: "" },
-      { word: "ฉี", spell: "ซอ อา ซา", audio: "" },
-      { word: "ถี", spell: "ตอ อา ตา", audio: "" },
-      { word: "ผี", spell: "ทอ อา ทา", audio: "" },
-      { word: "สี", spell: "นอ อา นา", audio: "" },
-      { word: "คี", spell: "ปอ อา ปา", audio: "" },
-      { word: "ชี", spell: "ผอ อา ผา", audio: "" },
-      { word: "ซี", spell: "ฝอ อา ฝา", audio: "" },
-      { word: "ที", spell: "มอ อา มา", audio: "" },
-      { word: "นี", spell: "ยอ อา ยา", audio: "" },
-      { word: "พี", spell: "รอ อา รา", audio: "" },
-      { word: "มี", spell: "ลอ อา ลา", audio: "" },
-      { word: "ยี", spell: "วอ อา วา", audio: "" },
-      { word: "รี", spell: "สอ อา สา", audio: "" },
-      { word: "ลี", spell: "หอ อา หา", audio: "" },
+      {
+        word: "กี",
+        spell: "กอ อา กา",
+        audio: "/Audio/สระอี/ฝึกอ่านคำต่อไปนี้/กี.m4a",
+      },
+      {
+        word: "จี",
+        spell: "ขอ อา ขา",
+        audio: "/Audio/สระอี/ฝึกอ่านคำต่อไปนี้/จี.m4a",
+      },
+      {
+        word: "ดี",
+        spell: "คอ อา คา",
+        audio: "/Audio/สระอี/ฝึกอ่านคำต่อไปนี้/ดี.m4a",
+      },
+      {
+        word: "ตี",
+        spell: "งอ อา งา",
+        audio: "/Audio/สระอี/ฝึกอ่านคำต่อไปนี้/ตี.m4a",
+      },
+      {
+        word: "อี",
+        spell: "จอ อา จา",
+        audio: "/Audio/สระอี/ฝึกอ่านคำต่อไปนี้/อี.m4a",
+      },
+      {
+        word: "ขี",
+        spell: "ชอ อา ชา",
+        audio: "/Audio/สระอี/ฝึกอ่านคำต่อไปนี้/ขี.m4a",
+      },
+      {
+        word: "ฉี",
+        spell: "ซอ อา ซา",
+        audio: "/Audio/สระอี/ฝึกอ่านคำต่อไปนี้/ฉี.m4a",
+      },
+      {
+        word: "ถี",
+        spell: "ตอ อา ตา",
+        audio: "/Audio/สระอี/ฝึกอ่านคำต่อไปนี้/ถี.m4a",
+      },
+      {
+        word: "ผี",
+        spell: "ทอ อา ทา",
+        audio: "/Audio/สระอี/ฝึกอ่านคำต่อไปนี้/ผี.m4a",
+      },
+      {
+        word: "สี",
+        spell: "นอ อา นา",
+        audio: "/Audio/สระอี/ฝึกอ่านคำต่อไปนี้/สี.m4a",
+      },
+      {
+        word: "คี",
+        spell: "ปอ อา ปา",
+        audio: "/Audio/สระอี/ฝึกอ่านคำต่อไปนี้/คี.m4a",
+      },
+      {
+        word: "ชี",
+        spell: "ผอ อา ผา",
+        audio: "/Audio/สระอี/ฝึกอ่านคำต่อไปนี้/ชี.m4a",
+      },
+      {
+        word: "ซี",
+        spell: "ฝอ อา ฝา",
+        audio: "/Audio/สระอี/ฝึกอ่านคำต่อไปนี้/ซี.m4a",
+      },
+      {
+        word: "ที",
+        spell: "มอ อา มา",
+        audio: "/Audio/สระอี/ฝึกอ่านคำต่อไปนี้/ที.m4a",
+      },
+      {
+        word: "นี",
+        spell: "ยอ อา ยา",
+        audio: "/Audio/สระอี/ฝึกอ่านคำต่อไปนี้/นี.m4a",
+      },
+      {
+        word: "พี",
+        spell: "รอ อา รา",
+        audio: "/Audio/สระอี/ฝึกอ่านคำต่อไปนี้/พี.m4a",
+      },
+      {
+        word: "มี",
+        spell: "ลอ อา ลา",
+        audio: "/Audio/สระอี/ฝึกอ่านคำต่อไปนี้/มี.m4a",
+      },
+      {
+        word: "ยี",
+        spell: "วอ อา วา",
+        audio: "/Audio/สระอี/ฝึกอ่านคำต่อไปนี้/ยี.m4a",
+      },
+      {
+        word: "รี",
+        spell: "สอ อา สา",
+        audio: "/Audio/สระอี/ฝึกอ่านคำต่อไปนี้/รี.m4a",
+      },
+      {
+        word: "ลี",
+        spell: "หอ อา หา",
+        audio: "/Audio/สระอี/ฝึกอ่านคำต่อไปนี้/ลี.m4a",
+      },
     ];
   }
 

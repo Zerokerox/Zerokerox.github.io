@@ -10,41 +10,89 @@ class ThaiReadingPhrases extends HTMLElement {
         spell: "สอ อา ศา / ลอ อา ลา",
         image:
           "https://th.bing.com/th/id/OIP.Skl1er9BLvjXH21w3cZ8cgHaE7?w=273&h=182&c=7&r=0&o=7&pid=1.7&rm=3",
-        audio: "",
+        audio: "/Audio/สระอี/กีฬา ทาสี ฝาชี,etc/กีฬา.m4a",
       },
       {
         word: "ทาสี",
         spell: "ฝอ อา ฝา / กอ อา กา",
         image:
           "https://th.bing.com/th/id/OIP.08ULnszp1OTAI8olJOq5DgHaE8?w=264&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-        audio: "",
+        audio: "/Audio/สระอี/กีฬา ทาสี ฝาชี,etc/ทาสี.m4a",
       },
       {
         word: "ฝาชี",
         spell: "ทอ อา ทา / ยอ อา ยา",
         image:
           "https://th.bing.com/th/id/OIP.i88YmogGcih5RapmeklNbgHaHa?w=203&h=203&c=7&r=0&o=7&pid=1.7&rm=3",
-        audio: "",
+        audio: "/Audio/สระอี/กีฬา ทาสี ฝาชี,etc/ฝาชี.m4a",
       },
     ];
 
     // ข้อมูลคำศัพท์ 12 คำ
     this.wordsData = [
-      { word: "กีฬา", spell: "ตอ อา ตา / ออ อา อา", audio: "" },
-      { word: "นาที", spell: "ฝอ อา ฝา / กอ อา กา", audio: "" },
-      { word: "ตาดี", spell: "มอ อา มา / หอ อา หา", audio: "" },
+      {
+        word: "กีฬา",
+        spell: "ตอ อา ตา / ออ อา อา",
+        audio: "/Audio/สระอี/กีฬา ทาสี ฝาชี,etc/กีฬา.m4a",
+      },
+      {
+        word: "นาที",
+        spell: "ฝอ อา ฝา / กอ อา กา",
+        audio: "/Audio/สระอี/กีฬา ทาสี ฝาชี,etc/นาที.m4a",
+      },
+      {
+        word: "ตาดี",
+        spell: "มอ อา มา / หอ อา หา",
+        audio: "/Audio/สระอี/กีฬา ทาสี ฝาชี,etc/ตาดี.m4a",
+      },
 
-      { word: "อีกา", spell: "ปอ อา ปา / กอ อา กา", audio: "" },
-      { word: "นารี", spell: "ยอ อา ยา / ชอ อา ชา", audio: "" },
-      { word: "สีดา", spell: "คอ อา คา / ถอ อา ถา", audio: "" },
+      {
+        word: "อีกา",
+        spell: "ปอ อา ปา / กอ อา กา",
+        audio: "/Audio/สระอี/กีฬา ทาสี ฝาชี,etc/อีกา.m4a",
+      },
+      {
+        word: "นารี",
+        spell: "ยอ อา ยา / ชอ อา ชา",
+        audio: "/Audio/สระอี/กีฬา ทาสี ฝาชี,etc/นารี.m4a",
+      },
+      {
+        word: "สีดา",
+        spell: "คอ อา คา / ถอ อา ถา",
+        audio: "/Audio/สระอี/กีฬา ทาสี ฝาชี,etc/สีดา.m4a",
+      },
 
-      { word: "มีนา", spell: "วอ อา วา / จอ อา จา", audio: "" },
-      { word: "พาที", spell: "สอ อา ศา / ลอ อา ลา", audio: "" },
-      { word: "ลีลา", spell: "มอ อา มา / นอ อา นา", audio: "" },
+      {
+        word: "มีนา",
+        spell: "วอ อา วา / จอ อา จา",
+        audio: "/Audio/สระอี/กีฬา ทาสี ฝาชี,etc/มีนา.m4a",
+      },
+      {
+        word: "พาที",
+        spell: "สอ อา ศา / ลอ อา ลา",
+        audio: "/Audio/สระอี/กีฬา ทาสี ฝาชี,etc/พาที.m4a",
+      },
+      {
+        word: "ลีลา",
+        spell: "มอ อา มา / นอ อา นา",
+        audio: "/Audio/สระอี/กีฬา ทาสี ฝาชี,etc/ลีลา.m4a",
+      },
 
-      { word: "ฝาชี", spell: "ออ อา อา / สอ อา สา", audio: "" },
-      { word: "ชาลี", spell: "รอ อา รา / คอ อา คา", audio: "" },
-      { word: "ทาสี", spell: "ทอ อา ทา / ยอ อา ยา", audio: "" },
+      {
+        word: "ฝาชี",
+        spell: "ออ อา อา / สอ อา สา",
+        audio: "/Audio/สระอี/กีฬา ทาสี ฝาชี,etc/ฝาชี.m4a",
+      },
+      {
+        word: "ชาลี",
+        spell: "รอ อา รา / คอ อา คา",
+        audio: "/Audio/สระอี/กีฬา ทาสี ฝาชี,etc/ชาลี.m4a",
+      },
+      {
+        word: "ทาสี",
+        spell: "ทอ อา ทา / ยอ อา ยา",
+        audio: "/Audio/สระอี/กีฬา ทาสี ฝาชี,etc/ทาสี.m4a",
+      },
     ];
   }
 
