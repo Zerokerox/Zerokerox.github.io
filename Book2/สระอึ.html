@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ทวบทวน</title>
+
+    <script
+      type="module"
+      src="/Components/Used/components/sidebar-with-slot-v3.js"
+    ></script>
+
+    <script
+      type="module"
+      src="/Components/Used/components/header-with-center-text-v3.js"
+    ></script>
+    <script type="module" src="/Book2/components/สระอึ/หัวข้อสระ.js"></script>
+    <script
+      type="module"
+      src="/Book2/components/สระอึ/ฝึกอ่านสระอึ-v2.js"
+    ></script>
+  </head>
+  <body>
+    <my-sidebar>
+      <thai-header first-title=" " last-title=" "></thai-header>
+      <thai-sara-title
+        sara="- ึ"
+        sara-name="สระอึ"
+        example="อึ"
+        reading="ออ อึ อึ"
+      ></thai-sara-title>
+      <thai-reading-practice></thai-reading-practice>
+    </my-sidebar>
+  </body>
+</html>
