@@ -79,6 +79,14 @@ export const sidebarMenus = [
         name: "สระอือ",
         url: "/Book2/สระอือ.html",
       },
+      {
+        name: "สระอึ",
+        url: "/Book2/สระอึ.html",
+      },
+      {
+        name: "สระแอ",
+        url: "/Book2/สระแอ.html",
+      },
     ],
   },
 ];
