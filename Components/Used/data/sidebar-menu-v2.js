@@ -99,6 +99,10 @@ export const sidebarMenus = [
         name: "สระแอะ",
         url: "/Book2/สระแอะ.html",
       },
+      {
+        name: "สระเอาะ",
+        url: "/Book2/สระเอาะ.html",
+      },
     ],
   },
 ];
